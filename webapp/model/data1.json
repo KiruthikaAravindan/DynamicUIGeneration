@@ -1,0 +1,277 @@
+{
+  "dynamicsDto": [
+    {
+      "title": "Details",
+      "tabDetails": [
+        {
+          "text": "Project Details",
+          "content": "Grid4",
+          "customDetails": [
+            {
+              "dataType": "Combobox",
+              "label": "Team",
+              "value": "dev",
+              "isMandatory": null,
+              "isEditable": false,
+              "attributeValues": [
+                {
+                  "attributeKey": "dev",
+                  "attributeValue": "Developer Team"
+                },
+                {
+                  "attributeKey": "del",
+                  "attributeValue": "Delivery Team"
+                },
+                {
+                  "attributeKey": "fin",
+                  "attributeValue": "Finance Team"
+                }
+              ]
+            },
+            {
+              "dataType": "Input",
+              "label": "Project",
+              "value": "Workbox",
+              "isMandatory": null,
+              "isEditable": false,
+              "attributeValues": null
+            }
+          ]
+
+        },
+
+        {
+
+          "text": "Project Details",
+
+          "content": "Table",
+
+          "tableDto": {
+
+            "taskCount": 20,
+
+            "headers": [
+
+              {
+
+                "type": "STANDARD",
+
+                "name": "Request No.",
+
+                "key": "requestNo"
+
+              },
+
+              {
+
+                "type": "STANDARD",
+
+                "name": "Created At",
+
+                "key": "createdAt"
+
+              },
+
+              {
+
+                "type": "STANDARD",
+
+                "name": "Created By",
+
+                "key": "createdBy"
+
+              },
+
+              {
+
+                "type": "STANDARD",
+
+                "name": "Status",
+
+                "key": "status"
+
+              }
+
+            ],
+
+            "workBoxDtos": [
+
+              {
+
+                "requestNo": "R101",
+
+                "createdAt": "12 Nov 2018",
+
+                "createdBy": "User One",
+
+                "status": "New"
+
+              },
+
+              {
+
+                "requestNo": "R102",
+
+                "createdAt": "12 Nov 2018",
+
+                "createdBy": "User One",
+
+                "status": "In Progress"
+
+              },
+
+              {
+
+                "requestNo": "R103",
+
+                "createdAt": "12 Nov 2018",
+
+                "createdBy": "User One",
+
+                "status": "In Progress"
+
+              },
+
+              {
+
+                "requestNo": "R104",
+
+                "createdAt": "12 Nov 2018",
+
+                "createdBy": "User One",
+
+                "status": "New"
+
+              }
+
+            ]
+
+          }
+
+        },
+
+        {
+
+          "text": "Comments and Attachment",
+
+          "content": "Grid1",
+
+          "customDetails": [
+
+            {
+
+              "dataType": "TextArea",
+
+              "label": "Appraisee Comment",
+
+              "value": "Worked on multiple project.",
+
+              "isMandatory": null,
+
+              "isEditable": false,
+
+              "attributeValues": null
+
+            },
+
+            {
+
+              "dataType": "TextArea",
+
+              "label": "Appraiser Comment",
+
+              "value": "Good Team Player",
+
+              "isMandatory": null,
+
+              "isEditable": false,
+
+              "attributeValues": null
+
+            },
+
+            {
+
+              "dataType": "Attachment",
+
+              "label": "Attachments",
+
+              "value": null,
+
+              "isMandatory": null,
+
+              "isEditable": false,
+
+              "attributeValues": {
+
+                "headers": [
+
+                  {
+
+                    "name": "File Name",
+
+                    "key": "fileName"
+
+                  },
+
+                  {
+
+                    "name": "Uploaded By",
+
+                    "key": "uploadedBy"
+
+                  },
+
+                  {
+
+                    "name": "Uploaded At",
+
+                    "key": "uploadedAt"
+
+                  }
+
+                ],
+
+                "workBoxDtos": [
+
+                  {
+
+                    "fileName": "User Profile",
+
+                    "createdAt": "12 Nov 2018",
+
+                    "createdBy": "User One",
+
+                    "base64": "asdfghjkl234567dfghj3456y7uidcfgbsndtyuewid42567uefdghj"
+
+                  },
+
+                  {
+
+                    "requestNo": "Client Mail",
+
+                    "createdAt": "12 Nov 2018",
+
+                    "createdBy": "User Two",
+
+                    "base64": "asdfghjkl234567dfghj3456y7uidcfgbsndtyuewid42567uefdghj"
+
+                  }
+
+                ]
+
+              }
+
+            }
+
+          ]
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}

@@ -1,0 +1,184 @@
+{
+	"headerDto": [{
+		"key": "subject",
+		"value": "Approve Supplier Invoice (000000187040)"
+	},{
+		"key": "createdBy",
+		"value": "Kiruthika A"
+	},{
+		"key": "createdAt",
+		"value": "May 30, 2018"
+	},{
+		"key": "description",
+		"value": "Approve Supplier Invoice 190000478 2018"
+	}],
+	"contentDto": [{
+		"dataType": "IconTabBar",
+		"contentDto": [{
+			"label": "Project Details",
+			"dataType": "IconTabBarFilter",
+			"icon": "accept",
+			"contentDto": [{
+				"label": "Basic Details",
+				"dataType": "Grid-4",
+				"contentDto": [{
+					"dataType": "Input",
+					"label": "Project",
+					"value": "Workbox",
+					"isMandatory": null,
+					"isEditable": false,
+					"attributeValues": null
+				}, {
+					"dataType": "ComboBox",
+					"label": "Team",
+					"value": "dev",
+					"isMandatory": null,
+					"isEditable": true,
+					"attributeValues": [{
+						"attributeKey": "dev",
+						"attributeValue": "Developer Team"
+					}, {
+						"attributeKey": "del",
+						"attributeValue": "Delivery Team"
+					}, {
+						"attributeKey": "fin",
+						"attributeValue": "Finance Team"
+					}]
+				}, {
+					"dataType": "Text",
+					"label": "Project",
+					"value": "Workbox",
+					"isMandatory": null,
+					"isEditable": true,
+					"attributeValues": null
+				}, {
+					"dataType": "Input",
+					"label": "Project",
+					"value": "Workbox",
+					"isMandatory": null,
+					"isEditable": false,
+					"attributeValues": null
+				}, {
+					"dataType": "Input",
+					"label": "Project",
+					"value": "Workbox",
+					"isMandatory": null,
+					"isEditable": true,
+					"attributeValues": null
+				}]
+			}]
+		}, {
+			"label": "Team Details",
+			"dataType": "IconTabBarFilter",
+			"contentDto": [{
+				"label": "Team Members",
+				"dataType": "Table",
+				"isClickable": true,
+				"tableDto": {
+					"taskCount": 20,
+					"headers": [{
+						"type": "STANDARD",
+						"name": "Request No.",
+						"key": "requestNo"
+					}, {
+						"type": "STANDARD",
+						"name": "Created At",
+						"key": "createdAt"
+					}, {
+						"type": "STANDARD",
+						"name": "Created By",
+						"key": "createdBy"
+					}, {
+						"type": "STANDARD",
+						"name": "Status",
+						"key": "status"
+					}],
+					"lineItemDtos": [{
+						"requestNo": "R101",
+						"createdAt": "12 Nov 2018",
+						"createdBy": "User One",
+						"status": "New",
+						"primaryKey": "1"
+					}, {
+						"requestNo": "R102",
+						"createdAt": "12 Nov 2018",
+						"createdBy": "User One",
+						"status": "In Progress",
+						"primaryKey": "2"
+					}, {
+						"requestNo": "R103",
+						"createdAt": "12 Nov 2018",
+						"createdBy": "User One",
+						"status": "In Progress",
+						"primaryKey": "3"
+					}, {
+						"requestNo": "R104",
+						"createdAt": "12 Nov 2018",
+						"createdBy": "User One",
+						"status": "New",
+						"primaryKey": "4"
+					}]
+				}
+			}]
+		}]
+	}, {
+		"label": "Basic Details",
+		"dataType": "Grid-4",
+		"contentDto": [{
+			"dataType": "ComboBox",
+			"label": "Team",
+			"value": "dev",
+			"isMandatory": null,
+			"isEditable": true,
+			"attributeValues": [{
+				"attributeKey": "dev",
+				"attributeValue": "Developer Team"
+			}, {
+				"attributeKey": "del",
+				"attributeValue": "Delivery Team"
+			}, {
+				"attributeKey": "fin",
+				"attributeValue": "Finance Team"
+			}]
+		}, {
+			"dataType": "Input",
+			"label": "Project",
+			"value": "Workbox",
+			"isMandatory": null,
+			"isEditable": false,
+			"attributeValues": null
+		}, {
+			"dataType": "Text",
+			"label": "Project",
+			"value": "Workbox",
+			"isMandatory": null,
+			"isEditable": true,
+			"attributeValues": null
+		}, {
+			"dataType": "Input",
+			"label": "Project",
+			"value": "Workbox",
+			"isMandatory": null,
+			"isEditable": false,
+			"attributeValues": null
+		}, {
+			"dataType": "Input",
+			"label": "Project",
+			"value": "Workbox",
+			"isMandatory": null,
+			"isEditable": true,
+			"attributeValues": null
+		}]
+	}],
+	"buttonsDto": [{
+			"buttonKey": "accept",
+			"buttonText": "Accept",
+			"buttonFlag": false
+		}, {
+			"buttonKey": "reject",
+			"buttonText": "Reject",
+			"buttonFlag": false
+		}
+
+	]
+}
