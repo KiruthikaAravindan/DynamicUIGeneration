@@ -1,0 +1,253 @@
+{
+  "headerDto": [
+    {
+      "value": "Approve Supplier Invoice (000000187040)",
+      "key": "subject"
+    },
+    {
+      "value": "Kiruthika",
+      "key": "createdBy"
+    },
+    {
+      "value": "May 30, 2018",
+      "key": "createdAt"
+    },
+    {
+      "value": "Approve Supplier Invoice 190000478 2018",
+      "key": "description"
+    }
+  ],
+  "contentDto": [
+    {
+      "contentDto": [
+        {
+          "contentDto": [
+            {
+              "contentDto": [
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": "Company Code",
+                  "value": " 0329",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Invoice ",
+                  "value": " 190000397",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Reference ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Vendor No ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Vendor ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Header Text ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Posting Date ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Document Date ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " AP Processor ",
+                  "value": " HABEEBM",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Amount ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Payment Terms ",
+                  "value": " 0030 30 days receipt of invoice",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Emergency Flag ",
+                  "value": "",
+                  "isMandatory": null
+                },
+                {
+                  "isEditable": true,
+                  "dataType": "Input",
+                  "attributeValues": null,
+                  "label": " Alternate Approver",
+                  "value": " PUHANAISURYA",
+                  "isMandatory": null
+                }
+              ],
+              "dataType": "Grid-4",
+              "label": "Information"
+            }
+          ],
+          "dataType": "IconTabBarFilter",
+          "icon": "accept",
+          "label": "Project Details"
+        },
+        {
+          "contentDto": [
+            {
+              "tableDto": {
+                "taskCount": 20,
+                "headers": [
+                  {
+                    "name": "FiscalYear",
+                    "type": "STANDARD",
+                    "key": "FiscalYear"
+                  },
+                  {
+                    "name": "Cost_Center",
+                    "type": "STANDARD",
+                    "key": "Cost_Center"
+                  },
+                  {
+                    "name": "Amount",
+                    "type": "STANDARD",
+                    "key": "Amount"
+                  },
+                  {
+                    "name": "Cost_Center_Description",
+                    "type": "STANDARD",
+                    "key": "Cost_Center_Description"
+                  },
+                  {
+                    "name": "InvoiceNo",
+                    "type": "STANDARD",
+                    "key": "InvoiceNo"
+                  },
+                  {
+                    "name": "GL_Description",
+                    "type": "STANDARD",
+                    "key": "GL_Description"
+                  },
+                  {
+                    "name": "Currency",
+                    "type": "STANDARD",
+                    "key": "Currency"
+                  },
+                  {
+                    "name": "GL_Account",
+                    "type": "STANDARD",
+                    "key": "GL_Account"
+                  },
+                  {
+                    "name": "Invtype",
+                    "type": "STANDARD",
+                    "key": "Invtype"
+                  },
+                  {
+                    "name": "Aufnr",
+                    "type": "STANDARD",
+                    "key": "Aufnr"
+                  },
+                  {
+                    "name": "Company_Code",
+                    "type": "STANDARD",
+                    "key": "Company_Code"
+                  },
+                  {
+                    "name": "PsPspPnr",
+                    "type": "STANDARD",
+                    "key": "PsPspPnr"
+                  },
+                  {
+                    "name": "Amount_Only",
+                    "type": "STANDARD",
+                    "key": "Amount_Only"
+                  }
+                ],
+                "lineItemDtos": [
+                  {
+                    "FiscalYear": "0000",
+                    "Cost_Center": "10100631",
+                    "Amount": "600.00 USD",
+                    "Cost_Center_Description": "JAMBERS #10H",
+                    "InvoiceNo": "",
+                    "GL_Description": "Fishing services",
+                    "Currency": "USD",
+                    "GL_Account": "63100350",
+                    "Invtype": "",
+                    "Aufnr": "",
+                    "Company_Code": "0329",
+                    "PsPspPnr": "000000000000000000000000",
+                    "Amount_Only": "0.000"
+                  }
+                ]
+              },
+              "dataType": "Table",
+              "isClickable": false,
+              "label": "Team Members"
+            }],
+          "dataType": "IconTabBarFilter",
+          "label": "Team Details"
+        }
+      ],
+      "dataType": "IconTabBar"
+    }
+  ],
+  "buttonsDto": [
+    {
+      "buttonText": "Accept",
+      "buttonFlag": false,
+      "buttonKey": "accept"
+    },
+    {
+      "buttonText": "Reject",
+      "buttonFlag": false,
+      "buttonKey": "reject"
+    }
+  ]
+}

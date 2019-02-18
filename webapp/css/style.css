@@ -1,1 +1,246 @@
 /* Enter your custom styles here */
+
+
+/*
+
+.greenBtnClass.sapUiSizeCompact .sapMBtnInner {
+    background-color: #198FF4 !important;
+    border-color: #198FF4 !important;
+    color: #ffffff;
+    text-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.5);
+}
+*/
+
+.titleClass {
+    margin-left: 1.3rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.greenBtnClass .sapMBtnInner {
+    background-color: #0cbb00!important;
+    border-color: #0cbb00!important;
+    color: #fff!important;
+    border-radius: 0;
+}
+
+
+/*.redBtnClass.sapUiSizeCompact .sapMBtnInner {
+    background: white !important;
+    color: #53A4EA !important;
+    box-shadow: 0 1px 2px 0 rgb(210, 201, 208) !important;
+    border-radius: 0 0 0 0;
+    border-color: #53A4EA !important;
+}*/
+
+.redBtnClass .sapMBtnInner {
+    background-color: #c8272c!important;
+    border-color: #c8272c!important;
+    color: #fff!important;
+    border-radius: 0;
+}
+
+.avatarSizeClass {
+    height: 4rem;
+    width: 4rem;
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.avatarColorClass.sapFAvatarInitials {
+    background-color: gray;
+    border-color: gray;
+}
+
+.headerContentAlignClass {
+    margin-top: 0.3rem !important;
+}
+
+.headerTitleClass {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.headerDescriptionClass {
+    margin-top: 0.2rem;
+    font-size: 0.875rem;
+    color: #000000;
+}
+
+.sapMText {
+    font-family: Open Sans !important;
+}
+
+.outerHeaderBoxClass .sapMFlexBoxBGTransparent {
+    background-color: #ffffff;
+}
+
+
+/*.outerHeaderBoxClass {
+		z-index:3;
+	 box-shadow: 0.4px 0.4px 0.4px 0.4px darkgrey;
+}*/
+
+.gridTextClass.sapMLabel {
+    color: #469DE7;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-left:0.5rem;
+}
+
+.gridTextContentClass {
+    margin-top: 0.5rem;
+}
+
+.gridHeaaderClass {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.tblHeader.sapMListTbl .sapMText, .sapMListTbl .sapMLabel{
+	  font-weight: bold;
+    font-size: 1rem;
+}
+.headerClass {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 1.2rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.headerClass.sapMLabel {
+    color: #333333;
+}
+
+
+/*.sapMListTblHeader>.sapMTableTH {
+    background: #F3F9FE;
+    border-bottom: 1px solid #dff1ff !important;
+    border-top: 1px solid #dff1ff !important;
+    border-right: 1px solid #dff1ff !important;
+}*/
+
+.gridBackgroundClass {
+    background-color: #ffffff;
+}
+
+.sapMLIBHoverable:hover {
+    background: #fafcfe;
+}
+
+.sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected>.sapMITBText {
+    color: #198FF4;
+    text-shadow: none;
+}
+
+
+/*sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected:hover>.sapMITBText{
+	 color: #198FF4;
+    text-shadow: none;
+}*/
+
+.sapMSltPressed:not(.sapMSltDisabled),
+.sapMComboBoxBasePressed:not(.sapMComboBoxTextFieldReadonly):not(.sapMComboBoxTextFieldState):not(.sapMComboBoxTextFieldDisabled) {
+    border-color: #198FF4 !important;
+}
+
+.sapMSlt,
+.sapMComboBoxTextField {
+    height: 1.625rem;
+    border: none;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.filterTabBarClass .sapMITBSelected>.sapMITBContentArrow {
+    border-bottom-color: #198FF4;
+}
+
+.filterTabBarClass .sapMITBTextOnly .sapMITBFilterDefault.sapMITBSelected>.sapMITBText {
+    color: #198FF4;
+}
+
+.filterTabBarClass .sapMITBTextOnly .sapMITBFilterDefault>.sapMITBText {
+    color: #198FF4;
+    font-family: Open Sans;
+    font-size: 0.85rem;
+    margin-top: -0.2rem;
+    font-weight: bold !important;
+}
+
+.filterTabBarClass .sapMITH {
+    box-shadow: none;
+    background-color: #f6fafe;
+    border-bottom: none;
+    height: 2.2rem;
+}
+
+.filterTabBarClass .sapMITBInLine.sapMITBTextOnly>.sapMITBVertical.sapMITBFilter>.sapMITBText + .sapMITBContentArrow {
+    height: 0.1125rem;
+}
+
+.tableHeader .sapMTableTH>.sapMLnk, .sapMTableTH>.sapMText, .sapMTableTH>.sapMLabel, .sapMTableTH>.sapMObjectNumber{
+	font-weight:bold;
+}
+/*.sapMInputBaseInner, .sapMSFF {
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius: 0 !important;
+}*/
+
+.sapMSltArrow,
+.sapMSltBar::after {
+    color: #198FF4;
+}
+
+.sapMSlt:not(.sapMSltDisabled):focus {
+    border-color: #198FF4 !important;
+}
+
+.sapMSlt,
+.sapMComboBoxTextField {
+    height: 1.625rem;
+    border: none;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.filterTabBarClass .sapMITBContent {
+    padding: 0rem;
+    border-bottom: none;
+}
+
+.sapMInputBaseContentWrapper {
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    background: #ffffff;
+}
+
+.sapMInputBaseIcon {
+    color: #198FF4;
+}
+
+.sapMSelectListItemBaseSelected {
+    background: #F3F9FE!important;
+}
+
+.listClass{
+	
+}
+
+/*.footerClass html .sap-desktop .sapContrast .sapMIBar.sapMFooter-CTX, html.sap-desktop .sapContrast.sapMIBar.sapMFooter-CTX{
+	background-color: rgba(64, 138, 251, 0.2); 
+color: rgba(64, 138, 251, 0.2);
+}*/

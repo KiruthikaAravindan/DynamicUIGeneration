@@ -190,6 +190,32 @@
 			"isEditable": true,
 			"attributeValues": null
 		}]
+	},{
+		"label": "List Details",
+		"dataType": "Grid-4",
+		"contentDto": [ {
+			"dataType": "List",
+			"listDto": {
+				"taskCount": 20,
+				"headers": [{
+					"type": "STANDARD",
+					"name": "Task created @ 12/08/18",
+					"key": "requestNo"
+				}, {
+					"type": "STANDARD",
+					"name": "Task created @ 12/09/18",
+					"key": "createdAt"
+				}, {
+					"type": "STANDARD",
+					"name": "Task created @ 11/10/18",
+					"key": "createdBy"
+				}, {
+					"type": "STANDARD",
+					"name": "Task created @ 09/09/18",
+					"key": "status"
+				}]
+			}
+		}]
 	}],
 	"contentDialogDto": [{
 		"label": "Basic Details",
@@ -276,6 +302,10 @@
 		"buttonFlag": false
 	}],
 	"dialogHeaderDto": [{
+		"key": "subject",
+		"value": "Approve Supplier Invoice"
+	}],
+	"dialogDto": [{
 		"key": "subject",
 		"value": "Approve Supplier Invoice"
 	}, {

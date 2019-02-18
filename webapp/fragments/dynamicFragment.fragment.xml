@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:f="sap.f" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout">
+	<Dialog showHeader="false" contentWidth="45%" class="dialogClass noScrollClass" id="idDialog">
+		<customHeader>
+			<Bar>
+				<contentLeft>
+
+				</contentLeft>
+				<contentMiddle>
+					<Label text="Title" class="delegateLabelStyle"/>
+				</contentMiddle>
+				<contentRight>
+						<Button  icon="sap-icon://decline" press="onDialogClose"></Button>
+				</contentRight>
+			</Bar>
+		</customHeader>
+	</Dialog>
+</core:FragmentDefinition>
