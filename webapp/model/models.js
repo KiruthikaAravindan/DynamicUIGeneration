@@ -3,7 +3,7 @@ sap.ui.define([
 	"sap/ui/Device"
 ], function (JSONModel, Device) {
 	"use strict";
-
+// Just Testing
 	return {
 
 		createDeviceModel: function () {
