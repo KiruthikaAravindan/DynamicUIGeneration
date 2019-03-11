@@ -12,7 +12,7 @@ sap.ui.define([
 			oDetailModel.refresh();
 			this.createDynamic();
 		},
-
+// Function to create dynamically
 		createDynamic: function () {
 			var oPage = this.getView().byId("idPage");
 			oPage.removeAllContent();
